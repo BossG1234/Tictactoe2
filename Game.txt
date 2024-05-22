@@ -1,0 +1,15 @@
+import javax.swing.*;
+
+public class Game  extends JFrame {
+
+ public Game() {
+     this.add(new Graphics());
+     this.setTitle("TIC_TAC_TOE");
+     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+     this.setResizable(false);
+     this.setVisible(true);
+     this.setSize(900, 1000);
+     this.setLocationRelativeTo(null);
+
+ }
+}
